@@ -30,7 +30,7 @@ const (
 	// UsernameKey is for account usernames.
 	UsernameKey = "username"
 	// PublicKeyPath is a path to a user's public key, for serving bare minimum AP representations.
-	PublicKeyPath = "users/:" + UsernameKey + "/" + uris.PublicKeyPath
+	PublicKeyPath = "users/:" + UsernameKey + "#" + uris.PublicKeyPath
 )
 
 type Module struct {
